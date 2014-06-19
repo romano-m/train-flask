@@ -1,2 +1,4 @@
 .DS_Store
 flask
+app.db
+db_repository
