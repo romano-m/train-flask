@@ -1,4 +1,6 @@
 .DS_Store
-flask
+flask/
 app.db
 db_repository
+tmp/
+*.pyc
