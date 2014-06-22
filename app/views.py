@@ -36,7 +36,7 @@ def before_request():
 @oid.loginhandler
 def login():
 	if g.user is not None and g.user.is_authenticated():
-		return redurect(url_for('index'))
+		return redirect(url_for('index'))
 	form = LoginForm()
 	if form.validate_on_submit():
 		session['remember_me'] = form.remember_me.data

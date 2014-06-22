@@ -3,4 +3,4 @@ flask/
 app.db
 db_repository
 tmp/
-*.pyc
+/*.pyc
